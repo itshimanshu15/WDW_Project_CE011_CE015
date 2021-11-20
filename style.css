@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(230, 184, 206);
+    margin-left: 2px;
+  margin-right: 2px;
+}
+.table1 {
+    width: 100%;
+    background-color: lightpink;
+    align-items: center;
+} 
+
+.td1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.row {
+    background-color: #212529;
+    margin: 10px -16px;
+}
+/* Add padding BETWEEN each column */
+
+.row,
+.row>.column {
+    padding: 20px;
+}
+/* Create three equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 25%;
+    display: none;
+    /* Hide all elements by default */
+}
+/* Clear floats after rows */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Content */
+
+.content {
+    border: red;
+    border-width: 10px;
+    padding: 0 px;
+}
+/* The "show" class is added to the filtered elements */
+
+.show {
+    display: block;
+}
+/* Style the buttons */
+
+.btn2 {
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: #ddd;
+}
+
+.btn2.active {
+    background-color: #666;
+    color: white;
+}
+
+.btn1 {
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: #666;
+    cursor: pointer;
+    color: white;
+}
